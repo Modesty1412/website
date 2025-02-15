@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Landing Page - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"
+        type="text/css" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script>
+        function got71(){
+            window.open("https://www.sgethai.com/article/%E0%B8%9F%E0%B8%B4%E0%B8%8A%E0%B9%81%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B8%8A%E0%B8%B4%E0%B8%9E/")
+        }
+         function got72(){
+            window.open("https://cookpad.com/th/recipes/17156518-%E0%B8%97%E0%B8%B2%E0%B9%82%E0%B8%81-%E0%B9%80%E0%B8%A1%E0%B8%81%E0%B8%8B%E0%B8%81%E0%B8%99%E0%B8%AB%E0%B8%A1")
+        }
+         function got73(){
+            window.open("https://food.trueid.net/detail/671E4xAL9bE7")
+        }
+        function got74(){
+            window.open("https://mgronline.com/travel/detail/9550000066048")
+        }
+        function got75(){
+            window.open("https://www.sanook.com/women/12618/")
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
+
+        body {
+            font-family: "IBM Plex Sans Thai Looped", serif;
+            font-weight: 250;
+            font-style: normal;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(217, 235, 243);
+        }
+
+        h1 {
+            width: 100%;
+            height: 350px;
+            line-height: 250px;
+            justify-content: center;
+            text-align: center;
+            display: block;
+            font-size: 60px;
+        }
+
+        .view {
+            width: 100%;
+            display: block;
+            align-items: center;
+        }
+
+        .block {
+            align-items: center;
+            height: 450px;
+            width: 700px;
+            margin: 50px;
+            background-color: white;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px;
+        }
+
+        /* .block:nth-child(1) {
+            background: rgb(255, 255, 255);
+            width: 700px;
+            height: 450px;
+        }
+
+        .block:nth-child(2) {
+            background: rgb(255, 255, 255);
+            width: 700px;
+            height: 450px;
+        }
+
+        .block:nth-child(3) {
+            background: rgb(255, 255, 255);
+            width: 700px;
+            height: 450px;
+        }
+
+        .block:nth-child(4) {
+            background: rgb(255, 255, 255);
+            width: 700px;
+            height: 450px;
+        }
+
+        .block:nth-child(5) {
+            background: rgb(255, 255, 255);
+            width: 700px;
+            height: 450px;
+        }
+
+        .block:nth-child(6) {
+            background: rgb(255, 255, 255);
+            width: 700px;
+            height: 450px;
+        } */
+
+        @keyframes appear {
+            from {
+                opacity: 0;
+                scale: 1px;
+            }
+
+            to {
+                opacity: 2;
+                scale: 1.5px;
+            }
+        }
+
+        img {
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        .block {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        p {
+            text-align: left;
+            padding-left: 60px;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo-1.png"
+                    style="height: 75px; width: 75px;"></a>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="text-center text-white">
+                        <!-- Page heading-->
+                        <h1 class="mb-5">ค้นหาสถานที่ ที่คุณอยากไป!</h1>
+                        <!-- Signup form-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Email address input-->
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-control form-control-lg" id="emailAddress" type="email"
+                                        placeholder="Go go" data-sb-validations="required,email" />
+                                </div>
+                                <a class="col-auto"><button class="btn btn-primary btn-lg ennaabled" id="submitButton"
+                                        type="submit" href="index.html">Seach</button></a>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    ///<a class="text-white"
+                                        href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Icons Grid-->
+    <section class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <img src="assets/img/in05.jpg" style="height: 320px; width: 320px;">
+                        <h3>Already for trip</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <img src="assets/img/in02.jpg" style="height: 320px; width: 320px;">
+                        <h3>We make for you</h3>
+                        <p class="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <img src="assets/img/in06.jpg" style="height: 320px; width: 320px;">
+                        <h3>Easy to Go</h3>
+                        <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<h1>อาหารทะเล</h1>
+<div class="view" style="text-align: center;">
+    <div class="block"><a href="https://www.sgethai.com/article/%E0%B8%9F%E0%B8%B4%E0%B8%8A%E0%B9%81%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B8%8A%E0%B8%B4%E0%B8%9E/"><img src="assets/img/p71.jpg" style="width: 600px; height: 420px; text-align: center; padding-top: 20px;"></a></div>
+    <div style="display: inline;">
+        <p><button onclick="got71()" style="text-align: left;">Goto web</button></p>
+        <p><b> ฟิชแอนด์ชิพ (Fish and Chip) ประเทศอังกฤษ</b></p>
+        <p> ฟิช ก็คือปลา ชิพ ในนี้ที่หมายถึงมันฝรั่งทอด หรือเฟรนช์ฟรายส์นั่นเอง อาหารที่มีต้นกำเนิดจากเมืองผู้ดีอังกฤษซึ่งเป็นอาหารจานทอดที่นำปลาไปชุบแป้งทอดเสิร์ฟพร้อมกับมันฝรั่งทอดร้อนๆ จิ้มกับซอสตามสูตรของแต่ละร้าน ทานร้อนๆ ฟินๆ เด็กทานง่ายผู้ใหญ่ทานดีแต่ทานมากไม่ดีเพราะเป็นอาหารจานทอดไขมันทรานส์จะพุ่งเอาได้ ฟิชแอนด์ชิพเป็นเมนูง่ายๆที่ถูกใจคนทั่วโลก มีประวัติความเป็นมากว่า 150 ปี ปัจจุบันหาทานง่ายแทบจะทุกร้านอาหารรวมไปถึงในครัวเรือนของชาวอังกฤษ และสหราชอาณาจักร  หากมีโอกาสได้ไปเที่ยวอังกฤษอย่าลืมลิ้มลองฟิชแอนด์ชิพกันนะครับ </p>
+    </div>
+    <div class="block"><a href="https://cookpad.com/th/recipes/17156518-%E0%B8%97%E0%B8%B2%E0%B9%82%E0%B8%81-%E0%B9%80%E0%B8%A1%E0%B8%81%E0%B8%8B%E0%B8%81%E0%B8%99%E0%B8%AB%E0%B8%A1"><img src="assets/img/p72.jpg" style="width: 600px; height: 420px; text-align: center; padding-top: 20px;"></a></div>
+    <div style="display: inline;">
+        <p><button onclick="got72()" style="text-align: left;">Goto web</button></p>
+    <p><b> ทาโก้ (Taco)  ประเทศเม็กซิโก</b></p>
+    <p>  ทาโก้ (Taco) จะประกอบไปด้วยแป้งตอติญ่า (Tortilla) ที่ทำมาจากแป้งข้าวโพดสอดไส้ตรงกลางด้วยผัก และเนื้อสัตว์ตามแต่สูตรซึ่งเนื้อที่นำมาทำได้ผ่านการปรุงรสมาเรียบร้อย เสริมรสชาติด้วยซอสกัดกินเป็นคำๆ จนหมด ในประเทศไทยได้มีการนำสูตรทาโก้มาขายอยู่บ้างแต่หากใครมีโอกาสไปเที่ยวเม็กซิโกก็สามารถหาทาโก้ทานได้ง่ายๆ เพราะจะมีขายแทบทุกหัวมุมถนน รสชาติก็ต่างกันไปอีกด้วยนะ ทั้งซอส การปรุงเนื้อ การเลือกผักมาใส่เรียกได้ว่ากิน 10 ร้าน รสชาติอาจจะไม่เหมือนกันสักร้านแต่รับรองว่าแซ่บจนคำสุดท้ายแน่นอน</p>
+    </div>
+    <div class="block"><a href="https://food.trueid.net/detail/671E4xAL9bE7"><img src="assets/img/p73.jpg" style="width: 600px; height: 420px; text-align: center; padding-top: 20px;"></a></div>
+    <div style="display: inline;">
+        <p><button onclick="got73()" style="text-align: left;">Goto web</button></p>
+    <p><b> พิซซ่า (Pizza) ประเทศอิตาลี </b></p>
+    <p>  เมนูที่หลายคนชื่นชอบกับความหนานุ่ม หรือบางกรอบของแป้ง ความยืดของชีสแสนอร่อย ความฟินจากท็อปปิ้งของหน้าพิซซ่า แต่เรื่องที่คนส่วนใหญ่ไม่รู้คือที่มาของพิซซ่านั้นมีมานานกว่าพันปีมาแล้วนะเออ ซึ่งนักโบราณคดีมีการค้นพบเศษขนมปังไหม้ในเตาอบของชาวอิตาลีโบราณที่เคยตั้งรกรากอยู่แถวนั้นในเวลาต่อมาก็ได้มีการนำมาปรับปรุงสูตรให้ทานง่ายขึ้นตามยุคสมัยจากช่วงแรกๆจะมีแต่การอบขนมปังใส่มะเขือเทศ และเครื่องเทศลงไปรวมทั้งมีการพัฒนานำชีสมาใส่ในช่วงที่ชีสเป็นที่นิยมในยุโรปเพื่อให้มีความยืด และมีรสสัมผัสมากขึ้นนับว่าเป็นการผสมกันอย่างลงตัวเลยทีเดียว   เมืองที่เป็นต้นตำรับของพิซซ่าอันโด่งดัง คือ เมืองนาโปลี(Napoli) หรือเมืองเนเปิลส์ (Naples)  เมืองริมทะเลที่มีบรรยากาศดีๆบ้านเมืองเก่าแก่สไตล์ยุโรป เป็นเมืองที่ติดอันดับเมืองที่สวยที่สุดเหมาะแก่การไปขอแต่งงานและฮันนีมูนเป็นที่สุดเลย หากได้มาเดินเล่นที่เมืองนี้ตามตรอกตามถนนจะเต็มไปด้วยความหอมหวนของกลิ่นอาหารที่ต่างปล่อยกันออกมายั่วน้ำลายนักท่องเที่ยวอย่างเรานักแล</p>
+    </div>
+    <div class="block"><a href="https://mgronline.com/travel/detail/9550000066048"><img src="assets/img/p74.jpg" style="width: 600px; height: 420px; text-align: center; padding-top: 20px;"></a></div>
+    <div style="display: inline;">
+        <p><button onclick="got74()" style="text-align: left;">Goto web</button></p>
+    <p><b>ฟองดูว์ (Fondue) ประเทศสวิตเซอร์แลนด์ </b></p>
+    <p> หลายๆท่านจะคุ้นกับการนำผลไม้ไปจุ่มกับช็อกโกแลตที่กำลังละลายในหม้อแล้วค่อยนำมาทานใช่ไหมล่ะครับ นั่นเป็นวิธีทานฟองดูว์วิธีนึง แต่ที่สวิสนั้นมีฟองดูว์หลายชนิด อาทิ ฟองดูว์ชีส ฟองดูว์เนื้อต่างๆ  หากมีโอกาสได้ไปเที่ยวสวิส อย่าลืมลิ้มลองฟองดูว์กันนะครับ </p>
+    </div>
+    <div class="block"><a href="https://www.sanook.com/women/12618/"><img src="assets/img/p75.jpg" style="width: 600px; height: 420px; text-align: center; padding-top: 20px;"></a></div>
+    <div style="display: inline;">
+        <p><button onclick="got75()" style="text-align: left;">Goto web</button></p>
+    <p><b>หอยเอสคาโก้ (Escargots) ประเทศฝรั่งเศส</b></p>
+    <p>เมนูหอยเอสคาโก้บางคนอาจจะทำหน้าเหยๆหน่อยเพราะเจ้าหอยเอสคาโก้มันก็คือน้องหอยทากตัวน้อยๆที่เติบโตอยู่ทางแถบฝรั่งเศสยังไงล่ะ โอ้ย!นึกถึงตอนที่เจ้าหอยทากเดินกระดึบๆๆอยู่แถวๆบ้านก็ต้องสูดหายใจเล็กน้อย555 ต้นตำรับของเมนูเปิบหอยนี้อยู่ที่แดนน้ำหอม ประเทศฝรั่งเศส หอยเอสคาโก้เป็นอาหารที่พิถีพิถันในการปรุง และวิธีการทำค่อนข้างจะมีรายละเอียดเยอะสักเล็กน้อย เริ่มจากการคัดสรรเกรดน้องหอยทากสุขภาพดี การกำจัดของเสียของน้องหอย และการทำให้น้องหอยคายเมือกออกมาเพื่อให้เวลาทานนั้นรู้สึกถึงเนื้อหอยสด  หลังจากกระบวนการที่กล่าวมาทั้งหมดก็จะนำหอยไปทำให้สุกจะต้มหรือจะนึ่งแล้วแต่สูตร จากนั้นแคะเนื้อออกมาแล้วนำมาคลุกเคล้ากับสมุนไพร และเนยต่อด้วยการนำไปใส่ในเปลือกหอยทาก ขั้นตอนสุดท้ายนำไปอบให้แห้งลงเสิร์ฟมาในจานหลุมพอดีตัวน้องหอยดูน่ารับประทาน วิธีทานก็เป็นเอกลักษณ์โดยการนำอุปกรณ์จับตัวหอย(มีอุปกรณ์เฉพาะอีก) จับให้มั่น และใช้ส้อมจิ้มตัวหอยขึ้นมารับประทานได้เลย เมนูนี้ถือเป็นอาหารเมนูเรียกน้ำย่อยของภัตตาคารอาหารฝรั่งเศสที่ได้รับความนิยมอีกด้วย</p>
+    </div>
+</div>
+
+
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-- Call to Action-->
+    <section class="call-to-action text-white text-center" id="signup">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <h2 class="mb-4">Ready to get started?</h2>
+                    <!-- Signup form-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
+                        <!-- Email address input-->
+                        <div class="row">
+                            <div class="col">
+                                <input class="form-control form-control-lg" id="emailAddressBelow" type="email"
+                                    placeholder="Go go" data-sb-validations="required,email" />
+                            </div>
+                            <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                    type="submit">Seach</button></div>
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                <p>To activate this form, sign up at</p>
+                                <a class="text-white"
+                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Error sending message!</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="About.html">About</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="Contact.html">Contact</a></li>
+                        <li class="list-inline-item">⋅</li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2023. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-4">
+                            <a href="facebook.html"><i class="bi-facebook fs-3"></i></a>
+                        </li>
+                        <li class="list-inline-item me-4">
+                            <a href="x.html"><i class="bi-twitter fs-3"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="ig.html"><i class="bi-instagram fs-3"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
